@@ -1,0 +1,26 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$route['default_controller'] = 'Anasehife';
+$route['gizlilik']           ='anasehife/gizlilik';
+$route['satis']           ='anasehife/satis';
+$route['suallar']           ='anasehife/suallar';
+$route['qaranti']           ='anasehife/qaranti';
+$route['elaqe']           ='anasehife/elaqe';
+$route['eynek']           ='anasehife/eynek';
+$route['xususi']          ='anasehife/xususi';
+$route['saat']            ='anasehife/saat';
+$route['elektronik']           ='anasehife/elektronik';
+$route['special']           ='anasehife/special';
+$route['eynekabout/(:any)']='anasehife/eynekabout/$1';
+$route['elektronikabout/(:any)']='anasehife/elektronikabout/$1';
+$route['saatabout/(:any)']='anasehife/saatabout/$1';
+$route['specialabout/(:any)']='anasehife/specialabout/$1';
+$route['xususigunlerabout/(:any)']='anasehife/xususigunlerabout/$1';
+$route['qeydiyyat']='anasehife/qeydiyyat';
+$route['giris']='anasehife/giris';
+$route['qeydol']='anasehife/qeydol';
+$route['usergiris']='anasehife/usergiris';
+$route['cixis']='anasehife/cixis';
+$route['comments']='anasehife/comments';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
